@@ -113,8 +113,179 @@
 margin-top: 10px;
   margin: auto;
 }
-@media only screen and (max-width: 600px) {
-  
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+	
+	.searc input[type=text]{
+    width:50%;
+    height:50px;
+    position:relative;
+    border:2px solid green;
+    padding:0 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+
+
+}
+.stx{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: aqua;
+    
+    
+
+}
+.middle-height{
+    height: 550px;
+    border: 1px solid black;
+    margin-left: 120px;
+    margin-top: 50px;
+    background-color: #2d545e;
+
+}
+.small-height{
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e1b382;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.content-height{
+    height: 650px;
+    border: 1px solid black;
+    margin-left: 200px;
+    background-color: #12343b;
+}
+.small-height h3{
+
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+
+    
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	
+	.searc input[type=text]{
+    width:35%;
+    height:50px;
+    position:relative;
+    border:2px solid green;
+    padding:0 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+
+
+}
+.stx{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: aqua;
+    
+    
+
+}
+.middle-height{
+    height: 550px;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #2d545e;
+
+}
+.small-height{
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e1b382;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.content-height{
+    height: 650px;
+    border: 1px solid black;
+    margin-left: 150px;
+    background-color: #12343b;
+}
+.small-height h3{
+
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+
+    
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+	
+	.searc input[type=text]{
+    width:35%;
+    height:50px;
+    position:relative;
+    border:2px solid green;
+    padding:0 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+
+
+}
+.stx{
+    position: absolute;
+    width: 15%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: aqua;
+    
+    
+
+}
+.middle-height{
+    height: 550px;
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: #2d545e;
+
+}
+.small-height{
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e1b382;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.content-height{
+    height: 650px;
+    border: 1px solid black;
+    margin-left: 150px;
+    background-color: #12343b;
+}
+.small-height h3{
+
+    text-align: center;
+    font-style: italic;
+    font-size: 7px;
+
+    
+}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1042px) {
+	.middle-height{
+    height: 550px;
+    border: 1px solid black;
+    margin-left: 155px;
+    margin-top: 50px;
+    background-color: #2d545e;
+
+}
+
+	
 }
 
 
